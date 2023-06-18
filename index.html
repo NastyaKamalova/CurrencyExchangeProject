@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="body">
+	<header class="header container">
+		<div class="logo">
+			<img src="img\logo.svg" class="desktop">
+			<img src="./img/logo-mobile.svg" class="mobile"> 
+		</div>
+		<nav class="nav">
+			<a href="#"> Home </a>
+			<a href="#"> Tariffs </a>
+			<a href="#"> Reviews </a>
+			<a href="#"> Rules </a>
+			<a href="#"> FAQ </a>
+			<a href="#"> For partners </a>
+			<a href="#"> Contacts </a>
+		</nav>
+		<div class="btn-bloc">
+			<button class="sign-up-btn full-btn">Sign up</button>
+			<button class="login-in-btn empty-btn">Log in</button>
+		</div>
+		<div class="mobile burger-menu">
+			<div class="menu-elem"></div>
+			<div class="menu-elem"></div>
+			<div class="menu-elem"></div>
+		</div>
+	</header>
+	<div class="container">
+		<section class="promo">
+			<div class="box">
+				<div class="content-box">
+					<header>
+						<h1 class="main-title">Currency Exchange <br> fast & safe</h1>
+						<h5 class="title">No extra fee. Account replenishment no longer than 15 minutes</h5>
+					</header>
+					<form class="form">
+						<div class="fields-box">
+							<label for="input-give" class="label">You give</label>
+							<input type="text" placeholder="amount" class="field" id="input-give"> 
+							<select name="currensy" class="field">
+								<option value="">Choose the currency</option>
+								<option value="usd">USD</option>
+								<option value="eur">EUR</option>
+								<option value="rub">RUB</option>
+							</select>
+						</div>
+						<img src="./img/reverse-item.svg" class="reverse-icon">
+						<div class="fields-box">
+							<label for="input-receive" class="label">You receive</label>
+							<input type="text" placeholder="amount" class="field" id="input-receive"> 
+							<select name="currensy" class="field">
+								<option>Choose the currency</option>
+								<option value="usd">USD</option>
+								<option value="eur">EUR</option>
+								<option value="rub">RUB</option>
+							</select>
+						</div>
+						<div class="desk-box">
+							<div class="desk">
+								<div class="currency-desk">Rate</div>
+								<span class="data-currency">1</span>
+								<span class="currency">RUB</span>
+								<span class="data-currency">=</span>
+								<span class="data-currency">0.0001</span>
+								<span class="currency">USD</span>
+							</div>
+							<div class="desk">
+								<div class="currency-desk">Commission -  1%</div>
+								<span class="data-currency">21.27498619</span>
+								<span class="currency">BCH</span>
+							</div>
+						</div>
+						<div class="btn-box">
+							<button type="submit" class="exchange-btn">EXCHANGE</button>
+						</div>
+						<div class="agree-box">
+							<input type="checkbox" class="hidden check-input" id="input-rules">
+							<label for="input-rules" class="checkbox-input"></label>
+
+							<div class="agreement">I agree with</div>
+							<a href="#" class="agreement">Rules and statements</a>
+						</div> 
+					</form>
+				</div>
+			</div>
+			<div class="box">
+				<img src="./img/main-img.svg" class="desktop">
+			</div>
+		</section>
+	</div>
+	<div class="bg-wrapper">
+		<div class="container">
+			<section class="applications">
+				<h2 class="body-title">Latest applications</h2>
+				<div class="app-wrapper">
+					<div class="data">28.07.2020, 12:36</div>
+					<div class="change-wrapper">
+						<div class="change-box">
+							<span class="number">0.056600935</span>
+							<span class="currensy">USD</span>
+						</div>
+						<img  class="change-img" src="./img/icon.svg">
+						<div class="change-box">
+							<span class="number">102 509.36</span>
+							<span class="currensy">RUB</span>
+						</div>
+					</div>
+				</div>
+				<div class="app-wrapper">
+					<div class="data">28.07.2020, 12:36</div>
+					<div class="change-wrapper">
+						<div class="change-box">
+							<span class="number">0.056600935</span>
+							<span class="currensy">USD</span>
+						</div>
+						<img  class="change-img" src="./img/icon.svg">
+						<div class="change-box">
+							<span class="number">102 509.36</span>
+							<span class="currensy">RUB</span>
+						</div>
+					</div>
+				</div>
+				<div class="app-wrapper">
+					<div class="data">28.07.2020, 12:36</div>
+					<div class="change-wrapper">
+						<div class="change-box">
+							<span class="number">0.056600935</span>
+							<span class="currensy">USD</span>
+						</div>
+						<img  class="change-img" src="./img/icon.svg">
+						<div class="change-box">
+							<span class="number">102 509.36</span>
+							<span class="currensy">RUB</span>
+						</div>
+					</div>
+				</div>
+				<div class="app-wrapper">
+					<div class="data">28.07.2020, 12:36</div>
+					<div class="change-wrapper">
+						<div class="change-box">
+							<span class="number">0.056600935</span>
+							<span class="currensy">USD</span>
+						</div>
+						<img  class="change-img" src="./img/icon.svg">
+						<div class="change-box">
+							<span class="number">102 509.36</span>
+							<span class="currensy">RUB</span>
+						</div>
+					</div>
+				</div>
+				<div class="dot-box mobile">
+					<div class="mobile dot active"></div>
+					<div class="mobile dot"></div>
+					<div class="mobile dot"></div>
+					<div class="mobile dot"></div>
+				</div>
+			</section>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="container footer-container">
+			<div class="copyright midl-box">
+				<img src="./img/logo.svg">
+				<div class="copyright-text">
+					<img src="./img/copyright.svg">
+					<div>
+						2021, cryptosale.net<br>
+						All rights reserved
+					</div>
+				</div> 
+				</div>
+				<div class="footer-btn-box midl-box mobile">
+					<button class="sign-up-btn full-btn">Sign up</button>
+					<button class="login-in-btn empty-btn">Log in</button>
+				</div>
+			<div class="list midl-box">
+				<a class="footer-link">Popular directions of exchange</a>
+				<ul class="footer-list">
+					<li> <a href="#" class="list-elem">Exchange Bitcoin to Qiwi</a></li>
+					<li> <a href="#" class="list-elem">Exchange Sber to Bitcoin</a></li>
+					<li> <a href="#" class="list-elem">Exchange Ether to Sber</a></li>
+					<li> <a href="#" class="list-elem">Exchange Ether to Tinkoff</a></li>
+				</ul>
+			</div>
+			<div class="list small-box">
+				<a class="footer-link">Tariffs</a>
+				<a class="footer-link">Reviews</a>
+				<a class="footer-link">Rules</a>
+				<a class="footer-link">FAQ</a>
+			</div>
+			<div class="list small-box">
+				<a class="footer-link">For partners</a>
+				<a class="footer-link">Policy</a>
+				<a class="footer-link">Contacts</a>
+			</div>
+			<div class="footer-btn midl-box desktop">
+				<button class="sign-up-btn full-btn">Sign up</button>
+				<button class="login-in-btn empty-btn">Log in</button>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
